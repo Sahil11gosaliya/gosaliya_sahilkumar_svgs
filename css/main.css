@@ -72,9 +72,17 @@ footer {
     width: 200px;
     margin: 20px;
     padding: 10px;
+    border: 4px solid #4c4c50;
+    border-radius: 100px;
 }
 
 
+
+.box:focus { 
+    outline: none;
+    border-color: #9ecaed;
+    box-shadow: 0 0 10px #9ecaed;
+}
 
 
 
